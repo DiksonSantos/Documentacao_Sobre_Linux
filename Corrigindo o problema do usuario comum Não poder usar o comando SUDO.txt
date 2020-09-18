@@ -1,0 +1,28 @@
+Corrigindo o problema do usuario comum Não poder usar o comando SUDO :
+
+Logue como root e edite o arquivo /etc/sudoers:
+
+#kate /etc/sudoers
+
+Após a linha 'User privilege specification' adicione o comando abaixo:
+
+SeuUsuario ALL=(ALL) ALL
+
+La vai estar:
+
+root>>  ALL=(ALL) ALL 
+
+Digire\Modifique:
+
+dikson01>> ALL=(ALL) ALL
+
+Salve e reinicie o Linux.
+
+
+
+
+
+
+
+FONTE:
+https://infocotidiano.com.br/2016/03/debian-corrigindo-erro-user-is-not-in.html

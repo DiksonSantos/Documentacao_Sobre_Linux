@@ -1,0 +1,42 @@
+https://linuxdicasesuporte.blogspot.com/2019/07/video-hibrido-intelnvidia-em-notebooks.html
+
+
+#CONTINUA EM... :
+Reinicie a maquina
+Instalando o Bumblebee e o driver
+
+Instale com a sequencia.
+
+Primeiro o driver recomendado.
+
+Altere driver_recomendado pelo driver indicado pelo nvidia-detect.
+
+Comando Ainda NÃO tentado:
+sudo apt install NVIDIA-Linux-x86_64-390.77.run
+
+
+
+
+
+Outro tuto, parece bom:     Contem LINKS
+https://www.youtube.com/watch?v=kF3F-Z048ZM
+
+____________________________________________________________________________
+
+
+PARA DESINSTALAR TUDO CASO DÊ PROBLEMA (DÊ BOOT COMO AVANÇADO\RECUPERAÇÃO\PROMPT) QUANDO LIGAR O NOTE 
+APARECE AS OPÇÕES... -> O COMPUTADOR VAI LIGAR COM UNIX APENAS, ENTÃO DIGITE NA LINHA DE COMANDO OS COMANDOS DO LINK
+A BAIXO:
+
+https://askubuntu.com/questions/206283/how-can-i-uninstall-a-nvidia-driver-completely
+
+___________________________________________________________________________________
+
+
+RESOLVIDO:
+Graças ao bom Deus algumas marmotas/Programadores (abeçoados sejam) criaram um script Totalmente altomatizado
+que fez a total instalação e configuração do Sistema Debian (tambem funciona com alguns outros Distros). Não 
+precisei fazer nada além de copiar o arquivo e colar no Terminal.
+Link para baixar o Arquvo Mágico (a la Windows):
+
+https://drive.google.com/file/d/1hRtkg4sB3Cj3_R4hPPGAuhwvPZXTqWwW/view?usp=sharing

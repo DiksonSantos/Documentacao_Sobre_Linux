@@ -1,0 +1,27 @@
+Para descompactar zip:
+unzip nomedoarquivo.zip.
+unrar x nomedoarquivo.rar.
+tar -xvf nomedoarquivo.tar.
+tar -vzxf nomedoarquivo.tar.gz.
+bunzip nomedoarquivo.bz2.
+tar -jxvf nomedoarquivo.
+
+
+
+
+
+
+
+
+
+
+
+
+DESCOMPACTAR  .TAR:
+tar -xvf nomedoarquivo.tar
+
+Para descompactar tar.gz:
+tar -vzxf nomedoarquivo.tar.gz
+
+Para descompactar bz2:
+bunzip nomedoarquivo.bz2

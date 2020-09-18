@@ -1,0 +1,40 @@
+CRIANDO UM AMBIENTE VIRTUAL NO PROMPT DE COMANDO:
+
+1 - Estando posicionado na Pasta onde deseja criar no novo ambiente virtual,
+
+Digite;
+virtualenv NomeDoNovoAmbienteVirtual
+
+
+2 - Vá até a pasta do Novo ambiente virtual ,e dentro da pasta "bin" digite;
+source activate
+
+Tem um arquivo la chamado "activate"  , é só dar um source nele.
+
+Você já vai esta posicionado dentro deste ambiente virtual. 
+
+3 -  Para Sair:
+
+Digite deactivate
+
+________________________________________________________________
+
+
+
+METODO GEEK UNIVERSITY:
+
+#CRIANDO AMBIENTE:
+
+ - Você pode criar um ambiente virtual com qualquer versão do Python com o comando abaixo:
+
+mkvirtualenv nome-do-ambiente -p python3.7
+
+No exemplo acima estou especificando que o ambiente virtual deve usar python3.7, e você pode substituir para qualquer versão do Python que você tenha instalado e que
+tenha o executável reconhecido.
+
+
+PARA REMOVER UM VIRTUALENV :
+
+rmvirtualenv NomeDoAmbiente 
+
+Vai aparecer ->  Removing NomeDoAmbiente...

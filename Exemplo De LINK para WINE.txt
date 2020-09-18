@@ -1,0 +1,1 @@
+env WINEPREFIX="/home/dikson01/.wine" wine-development Z:\\media\\dikson01\\2TB_Disco\\JOGOS\ INSTALADOS\\CoDSP.exe 

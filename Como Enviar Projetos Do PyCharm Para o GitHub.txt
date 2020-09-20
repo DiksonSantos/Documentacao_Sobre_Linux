@@ -1,0 +1,49 @@
+Na pasta dos arquivos .py  OU no prompt do PyCharm (Já posicionado na pasta dos arquivos .py):
+
+
+git init
+git status
+
+
+Para incluir TODOS OS ARQUIVOS digite um Ponto FInal . Se quiser subir apenas UM arquivo em especifico. Digite o nome
+do mesmo:
+
+git add . 
+
+
+
+git commit -m "Primeiro_Commit"
+
+
+
+
+AGORA ENTRE NO SITE DO GITHUB E CRIE UM REPOSITORIO.
+ONDE ESTIVER ESCRITO 
+
+
+..or push an existing repository from the command line:
+"git remote add origin https://......."  
+
+Copie (onde começa com git) e cole no temrinal do PyCharm, ou no Terminal comum (porém posicionado na pasta onde se encontram os arquivos .py a serem subidos).
+
+
+_______________________________________________________________________________________________________________________
+
+CASO ENFRENTE PROBLEMAS TENTE USAR ISTO:
+Make new repo and push the existing code again to the new repo
+
+git init doesn’t initialize if you already have a .git/ folder in your repository. So, for your case, do -
+
+(1) rm -rf .git/
+
+(2) git init
+
+(3) git remote add origin https://github.com/DiksonSantos/Curso_Do_Guanabara      
+
+(4) git commit -m “Commit message”
+
+(5) git push -f origin master
+
+Note that all git configs like remote repositories for this repository are cleared in step 1. So, you have to setup all remote repository URLs again.
+
+Also, take care of the -f in step 5 : The remote already has some code base with n commits, and you’re trying to make all those changes into a single commit. So, force-pushing the changes to remote is necessary.

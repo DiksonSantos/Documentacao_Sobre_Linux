@@ -38,3 +38,23 @@ PARA REMOVER UM VIRTUALENV :
 rmvirtualenv NomeDoAmbiente 
 
 Vai aparecer ->  Removing NomeDoAmbiente...
+
+
+
+________________________________________________________________
+
+METODO PYTHON_PRO :
+
+Tive que instalar o Pacote usando o Comando ->  apt-get install python3-venv
+
+python3 -m venv venv3
+
+Sendo -> python3 ESPECIFICA VERSÃO DO PYTHON |  -m SIGNIFICA EXECUTAR MODULO Que é o VENV |  
+Por Ultimo A Pasta onde você quer colocar o Ambiente Virtual ou -> .venv3 
+
+
+Navegue até a pasta "bin"   ->  dikson00@notebook:~/venv3/bin$
+Use o comando :
+source activate
+
+Ou Source no Arquivo Activate.

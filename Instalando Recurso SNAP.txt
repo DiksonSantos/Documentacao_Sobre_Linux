@@ -32,3 +32,14 @@ $ sudo snap remove <snapname>
 
 
 https://computingforgeeks.com/how-to-install-snap-on-ubuntu-debian-linux/
+
+
+
+ATUALIZAR SOFTWARE SNAP:
+
+sudo snap refresh NOME_DO_SOFTWARE_SNAP
+
+
+Ou Apara atualizar TODOS os SNAPS , simplesmente:
+
+sudo snap refresh

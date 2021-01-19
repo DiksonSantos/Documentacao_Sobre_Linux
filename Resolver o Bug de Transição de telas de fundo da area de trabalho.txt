@@ -26,6 +26,3 @@ ____________________
 
 
 
-PARA HABILITAR OUTROS RECURSOS DO i915 (Se tiver coragem de correr o risco de Quebrar o S/O):
-
-https://wiki.archlinux.org/index.php/intel_graphics

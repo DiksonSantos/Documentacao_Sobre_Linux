@@ -1,1 +1,0 @@
-https://linuxize.com/post/how-to-install-mongodb-on-debian-10/

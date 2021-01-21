@@ -26,3 +26,16 @@ Salve e reinicie o Linux.
 
 FONTE:
 https://infocotidiano.com.br/2016/03/debian-corrigindo-erro-user-is-not-in.html
+
+
+
+
+
+
+
+
+
+
+OUTRA FORMA  (Não funciona Permanentemente!!):
+
+dikson00@notebook:~$ gpasswd -a dikson00 sudo 

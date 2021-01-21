@@ -1,0 +1,13 @@
+deb http://deb.debian.org/debian buster main contrib non-free
+deb http://deb.debian.org/debian-security/ buster/updates main contrib non-free
+deb http://deb.debian.org/debian buster-updates main contrib non-free
+
+
+Depois de modificar a source.list com as terminações "non-free" como a cima. Use o comando:
+
+sudo apt-get install firmware-linux
+
+Para instalar suporte a Hardware\Firmware que não tenha codigo aberto.
+
+
+No caso deste Notebook foi o i915 (controlador gráfico).

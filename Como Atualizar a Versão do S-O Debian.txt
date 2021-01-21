@@ -12,10 +12,11 @@ Passo 2. Use os comandos abaixo para atualizar seu sistema atual;
 apt-get update
 apt-get upgrade
 apt-get dist-upgrade
+
 Passo 3. Se quiser conferir como está o arquivo de configuração de programas do gerenciador de pacotes, use esse comando;
 
-
 cat /etc/apt/sources.list
+
 Passo 4. No Debian Stretch, ele deve estar basicamente nesse formato;
 
 deb http://security.debian.org Stretch/updates main
@@ -26,6 +27,9 @@ deb-src http://ftp.us.debian.org/debian/ stretch main/code>
 Passo 5. Substitua a palavra Stretch por Buster, no arquivo /etc/apt/sources.list, usando esse comando;
 
 sed -i 's/stretch/buster/g' /etc/apt/sources.list
+OU
+sed -i 's/buster/bullseye/g' /etc/apt/sources.list
+
 Passo 6. Novamente, se quiser conferir como está o arquivo de configuração de programas do gerenciador de pacotes, use esse comando;
 
 cat /etc/apt/sources.list
@@ -45,7 +49,7 @@ Passo 9. Finalmente, instale qualquer outra atualização disponível, com o com
 apt-get dist-upgrade
 Passo 10. Quando finalizar a instalação, use o comando a seguir para reiniciar o sistema;
 
-reboot
+sudo reboot
 Passo 11. Quando o sistema iniciar novamente, use o comando a seguir para verificar as informações atuais do Debian;
 
 hostnamectl

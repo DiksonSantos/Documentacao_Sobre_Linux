@@ -3,3 +3,22 @@ How to Fix ‘E: Could not get lock /var/lib/dpkg/lock’ Error in Linux
 
 
 ps aux | grep -i apt
+
+
+
+
+
+Corrigir a mensagem /var/lib/dpkg/lock
+
+sudo rm -rf /var/lib/apt/lists/lock
+
+
+Se após executar o comando o problema persistir, execute um dos comandos abaixo, você não precisa executar todos, mas passe para o próximo caso a opção escolhida não resolva o problema.
+
+sudo apt-get update
+sudo dpkg --configure -a
+sudo apt-get -f install
+
+
+
+https://sempreupdate.com.br/como-destravar-o-var-lib-dpkg-lock-ubuntu-debian-linux-mint/

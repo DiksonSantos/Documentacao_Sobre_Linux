@@ -3,3 +3,7 @@ sudo fwupdmgr update
 
 
 Comandos que "Parecem "  ter resolvido o problema com "Can not solve hot Download tal tal fwupd  na loja de apps
+
+
+
+sudo fwupdmgr refresh && sudo fwupdmgr update

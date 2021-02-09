@@ -1,0 +1,22 @@
+$ sudo rm -rf /home/usuario/seu-DIRETORIO-CHEIO
+
+ou
+
+# rm -rf /home/usuario/seu-DIRETORIO-CHEIO
+
+
+
+_____
+
+
+Diretorios Vazios:
+
+rmdir nomeDaPasta
+
+_____
+
+
+
+Arquivos:
+
+# rm ArquivoCriado.py

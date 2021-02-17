@@ -1,3 +1,12 @@
 
 
-Globally: /usr/share/icons/ or in your home folder : ~/.local/share/icons
+Globally:
+/usr/share/icons/ 
+
+
+
+
+
+Or in your home folder:
+
+~/.local/share/icons

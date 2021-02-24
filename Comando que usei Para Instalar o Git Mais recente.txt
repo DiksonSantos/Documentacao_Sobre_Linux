@@ -1,3 +1,4 @@
+PORÉM -> A CADA VEZ QUE O SISTEMA REINICIA PRA ATUALIZAR, É NECESSARIO RE-INSTALAR ESTE "GIT"
 sudo apt-get -t buster-backports install git
 
 

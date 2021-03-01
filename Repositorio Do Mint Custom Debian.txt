@@ -1,0 +1,7 @@
+Repositorio do Mint Para customizar o Cinnamon do Debian 9Baixei os X-Icons) 
+
+Sempre teste numa máquina (Com Debian) virtual antes !!!
+
+
+
+http://packages.linuxmint.com/list.php?release=Ulyssa

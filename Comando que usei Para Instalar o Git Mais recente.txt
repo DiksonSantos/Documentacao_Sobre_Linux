@@ -1,4 +1,4 @@
-PORÉM -> A CADA VEZ QUE O SISTEMA REINICIA PRA ATUALIZAR, É NECESSARIO RE-INSTALAR ESTE "GIT"
+﻿PORÉM -> A CADA VEZ QUE O SISTEMA REINICIA PRA ATUALIZAR, É NECESSARIO RE-INSTALAR ESTE "GIT"
 sudo apt-get -t buster-backports install git
 
 
@@ -62,3 +62,18 @@ To delete configuration and/or data files of git and it's dependencies from Ubun
 $ sudo apt-get purge --auto-remove git
 
 
+
+
+
+INSTALAÇÃO PERMANENTE DO GIT 2.29
+
+
+
+Não consegui chegar a um consenso de como eu consegui instalar permanentemente. 
+Mas me lembro que:
+
+ usei o Aptitude 
+
+Escolhi Não manter arquivos
+
+Instalei novos.

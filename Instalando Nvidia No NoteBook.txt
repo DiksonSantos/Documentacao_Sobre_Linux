@@ -1,4 +1,4 @@
-https://linuxdicasesuporte.blogspot.com/2019/07/video-hibrido-intelnvidia-em-notebooks.html
+﻿https://linuxdicasesuporte.blogspot.com/2019/07/video-hibrido-intelnvidia-em-notebooks.html
 
 
 #CONTINUA EM... :
@@ -34,7 +34,7 @@ ________________________________________________________________________________
 
 
 RESOLVIDO:
-Graças ao bom Deus algumas marmotas/Programadores (abeçoados sejam) criaram um script Totalmente altomatizado
+Graças ao bom Deus algumas marmotas/Programadores (abençoados sejam) criaram um script Totalmente altomatizado
 que fez a total instalação e configuração do Sistema Debian (tambem funciona com alguns outros Distros). Não 
 precisei fazer nada além de copiar o arquivo e colar no Terminal.
 Link para baixar o Arquvo Mágico (a la Windows):
